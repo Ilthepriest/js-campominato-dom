@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: aquamarine;
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.cella{
+    width: calc(100% / 10);
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 70px;
+}
+
+button{
+    padding: 0 20px;
+}
