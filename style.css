@@ -61,3 +61,8 @@ button{
 .red{
     background-color: red;
 }
+
+.allBombe{
+    background-color: red;
+    display: none;
+}
